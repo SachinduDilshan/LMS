@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,wght@1,800&display=swap');
+
+
+@media (max-width:800px) {
+	/* For tablets: */
+	.container {
+	  width: 80%;
+	  padding: 0;
+	}
+	.right {
+	  width: 100%;
+	}
+  }
+  @media (max-width:500px) {
+	/* For mobile phones: */
+	.menu, .main, .right {
+	  width: 100%;
+	}
+  }
+
+
+/*-----------------------------------header-----------------------------------------*/
+
+
+.container-fluid {
+    background-color: #1004b5;
+	height: 80px;
+}
+
+nav ul li:hover {
+	
+    background-color:#0b9dc1;
+	inset-block:#044978 ;
+	border-radius: 10px;
+}
+.dropdown-toggle::before{
+	background-color: #033659;
+}
+nav ul li a {
+    color: black;
+	font-size: 20px;
+}
+nav ul li{
+	margin-top: 10px;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+.navbar-inverse{
+    border-radius: 0;
+    border: none;
+}
+.dropdown-menu{
+	background-color: #ffffff;
+}
+
+.dropdown-menu li a:hover{
+	color: #ffffff;
+	background-color: #1004b5;
+}
+
+
+/*-------------------------------------content------------------------------------*/
+
+
+.topic{
+    position: relative;
+    text-align: center;
+    top: 350px;
+    font-size: 70px;
+    font-family: 'Dancing Script', cursive;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+	position: relative;
+	top: 20px;
+	left: 70px;
+	color: #044978;
+}
+.box{
+    border: solid #046eb5;
+	box-shadow: -1px 0 30px #103045;
+    width: 220px;
+    height: 300px;
+    float: left;
+    border-radius: 10px;
+    position: absolute;
+	margin-left: 25px;
+}
+.btns{
+	position: relative;
+	top:50px ;
+	left: 50px;
+	background-color: #0c3a58;
+	color: #ffffff;
+	transition: 1s;
+	box-shadow: -1px 0 10px #103045;
+	border-radius: 5px;
+	width: 100px;
+	height: 30px;
+	
+}
+.btns2{
+	position: relative;
+	left: 70px;
+}
+.btns:hover{
+	transform: scale(1.3);
+	
+}
+.bor{
+	border: solid;
+	border-radius: 50px;
+}
+#box2{
+    position: absolute;
+    left: 250px;
+}
+#box3{
+    position: absolute;
+    left: 500px;
+}
+.boxhed{
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+	top: 30px;
+	font-family: 'Playfair', serif;
+	font-size: 30px;
+	color: #033659;
+}
+.containerF{
+	float: left;
+	width: 500px;
+	height: 700px;
+	position: absolute;
+	left: 800px;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9MYy3BbTlXjyhokXxcZoXDRZovRPF9cPsS7uLNA5M1IydYm5kPuVQOZpEf9naxJvCLs8&usqp=CAU");
+	background-position: center;
+	
+
+	
+	background-repeat: no-repeat;
+	transition: 2s;
+	
+	background-size: cover;
+	animation-name:animate;
+	animation-direction: alternate-reverse;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-play-statanimation-fill-mod:running;
+	animation-timing-function: ease-in-out;
+
+}
+
+@keyframes animate{
+	0%{
+		background-image: url("https://img.freepik.com/free-vector/task-concept-illustration_114360-4293.jpg?w=2000");
+	}
+	20%{
+		background-image: url("https://img.freepik.com/free-vector/personal-files-concept-illustration_114360-4013.jpg");
+	}
+	40%{
+		background-image: url("https://img.freepik.com/premium-vector/employee-personal-file-concept-human-resources-choice-career-employment-cv-job-search_97843-142.jpg?w=2000");
+	}
+	60%{
+		background-image: url("https://assets.website-files.com/62045da4270c887c4de9c45f/62080090f9b2b85ec9298118_iStock-1303715147.jpg");
+	}
+	80%{
+		background-image: url("https://img.freepik.com/free-vector/documentation-management-colorful-icon-female-cartoon-character-putting-document-big-yellow-folder-files-storage-sorting-organization_335657-846.jpg?w=2000");
+	}
+	100%{
+		background-image: url("https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41407-021-0707-8/MediaObjects/41407_2021_707_Fig1_HTML.jpg");
+	}
+
+}
+
+
+
+/*-------------------------------contact us page------------------------------------*/
+
+
+
+.contactUs{
+	height: 700px;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	background: url("https://docket.acc.com/sites/default/files/2021-12/f_diamond_key_components_of_records_management.jpg")no-repeat center center/cover;
+}
+.contactUs form{
+	width: 670px;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+	background: rgba(225, 225, 225, 0.1);
+	backdrop-filter: blur(20px);
+	flex-wrap: wrap;
+	margin: 70px;
+}
+.contactUs form h4{
+	color: #305c4b;
+	font-weight: 500;
+	margin-top: 20px;
+	width: 500px;
+	text-align: center;
+}
+.contactUs form input{
+	width: 290px;
+	height: 40px;
+	padding-left: 10px;
+	outline: none;
+	border:none;
+	font-size: 10px;
+	margin-bottom: 10px;
+	background: none;
+	border-bottom: 2px solid #103045;
+}
+.contactUs form input::placeholder{
+	color: #103045;
+}
+.contactUs form #lastName,
+.contactUs form #mobile{
+	margin-left: 20px;
+}
+.contactUs form h4{
+	color: #103045;
+	font-weight: 300;
+	width: 600px;
+	margin-top: 20px;
+}
+.contactUs form textarea{
+	background:none ;
+	border: none;
+	border-bottom: 2px solid #103045;
+	font-weight: 200;
+	font-size: 15px;
+	padding: 10px;
+	outline: none;
+	min-width: 600;
+	max-width: 600px;
+	min-height: 80px;
+	max-height: 80px;
+}
+textarea::webkit-scrollbar{
+	width: 1em;
+
+}
+
+textarea::webkit-scrollbar-thumb{
+	background-color: rgba(194, 194, 194, 0.713);
+}
+.contactUs form #button{
+	border: none;
+	background: #103045;
+	border-radius: 5px;
+	margin-top: 20px;
+	font-weight: 600;
+	font-size: 20px;
+	color:#ffffff;
+	width: 100px;
+	padding: 0;
+	margin-right: 500px;
+	margin-bottom: 30px;
+	transition: 0.3s;
+}
+.contactUs form #button:hover{
+	opacity: 0.7;
+
+}
+
+
+
+/*----------------------------------------footer-------------------------------------------*/
+
+
+
+.containerF{
+	max-width: 1170px;
+	margin: auto;
+    max-height: 300px;
+}
+.footerH{
+   position: relative;
+   top: 400px;
+}
+footer{
+	background-color: #1004b5;
+	padding: 50px ;
+    height: 400px;
+}
+footer ul{
+	list-style: none;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.footer-col{
+	width: 25%;
+	padding: 0 15px;
+    
+}
+.footer-col h4{
+	font-size: 18px;
+	color: white;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 400;
+	position: relative;
+    margin-left: 25px;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom:10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: rgb(203, 203, 203);
+	text-decoration: 300;
+	color:#bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color:#ffffff;
+	padding-left: 10px;
+}
+.social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height:30px ;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+
+.social-links a:hover{
+	color:#ffffff;
+	background-color:#044978;
+	transform: scale(1.3);
+	z-index: 2;
+}
+
+
+/*-------------------------------update-----------------*/
+
+button[type=find]{
+    background-color:rgb(9, 170, 33);
+    padding: 12px 20px;
+    border: none;
+}
+
+button[type=find]:hover{
+    background-color:rgb(6, 125, 24);
+    border: none;
+}
+
+button[type=update]{
+    background-color:rgb(6, 147, 159);
+    margin-bottom: 20px;
+    border: none;
+}
+
+button[type=update]:hover{
+    background-color:rgb(5, 86, 111);
+    margin-bottom: 20px;
+    border: none;
+}
+button[type=delete]{
+    background-color:rgb(170, 9, 9);
+    margin-bottom: 20px;
+    border: none;
+}
+
+button[type=delete]:hover{
+    background-color:rgb(142, 7, 7);
+    margin-bottom: 20px;
+    border: none;
+}
+.up{
+	margin-left: 25px;
+	margin-bottom: 20px;
+}

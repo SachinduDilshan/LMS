@@ -1,0 +1,153 @@
+
+[
+    {
+        "sid" : "1",
+        "firstname" : "Sachindu",
+        "lastname" :"Abyerathne",
+        "guardian" : " KGCAbeyrathne",
+        "email" : "me@example.com",
+        "nearest_city" : "Kurunegala",
+        "course" : "FIT",
+        "Subjects" : ["ETF", "ORDBMS", "OOP", "SE", "HCI", "IP"]
+    },
+    {
+        "sid" : "2",
+        "firstname" : "David",
+        "lastname" :"Miller",
+        "guardian" : "Cameron Green",
+        "email" : "hello@example.com",
+        "nearest_city" : "Galle",
+        "course" : "Degree",
+        "Subjects" : ["ETF", "ORDBMS", "OOP", "SE", "HCI", "IP" ]
+    },
+    {
+        "sid" : "3",
+        "firstname" : "Virat",
+        "lastname" :"Kohli",
+        "guardian" : "MS Dhoni",
+        "email" : "1234@example.com",
+        "nearest_city" : "Kandy",
+        "course" : "MIT",
+        "Subjects" : ["ETF", "ORDBMS", "OOP", "SE", "HCI", "IP" ]
+    },
+    {
+        "sid" : "4",
+        "firstname" : "Pat",
+        "lastname" :"Cummins",
+        "guardian" : "Mitch Starc",
+        "email" : "world@example.com",
+        "nearest_city" : "Anuradhapura",
+        "course" : "FIT",
+        "Subjects" : ["ETF", "ORDBMS", "OOP", "SE", "HCI", "IP" ]
+    },
+    {
+        "sid" : "5",
+        "firstname" : "Joe",
+        "lastname" :"Root",
+        "guardian" : "Eoin Morgan",
+        "email" : "england@example.com",
+        "nearest_city" : "Trincomalee",
+        "course" : "Degree",
+        "Subjects" : ["ETF", "ORDBMS", "OOP", "SE", "HCI", "IP" ]
+    },
+    {
+        "sid" : "6",
+        "firstname" : "Jason",
+        "lastname" :"Holder",
+        "guardian" : " Darren Sammy",
+        "email" : "windies@example.com",
+        "nearest_city" : "Puttlam",
+        "course" : "MIT",
+        "Subjects" : ["ETF", "ORDBMS", "OOP", "SE", "HCI", "IP" ]  
+    },
+    {
+        "sid" : "7",
+        "firstname" : "Faf",
+        "lastname" :"Du",
+        "guardian" : "Jackque Kallis",
+        "email" : "sa@example.com",
+        "nearest_city" : "Matara",
+        "course" : "FIT",
+        "Subjects" : ["ETF", "ORDBMS", "OOP", "SE", "HCI", "IP" ]
+    },
+    {
+        "sid" : "8",
+        "firstname" : "Rohit",
+        "lastname" :"Sharma",
+        "guardian" : "Sunil Gavaskar",
+        "email" : "india@example.com",
+        "nearest_city" : "Mulativu",
+        "course" : "MIT",
+        "Subjects" : ["ETF", "ORDBMS", "OOP", "SE", "HCI", "IP" ]
+    },
+    {
+        "sid" : "9",
+        "firstname" : "Steve",
+        "lastname" :"Smith",
+        "guardian" : "Don Bradmon",
+        "email" : "aus@example.com",
+        "nearest_city" : "Mannar",
+        "course" : "FIT",
+        "Subjects" : ["ETF", "ORDBMS", "OOP", "SE", "HCI", "IP" ]
+    },
+    {
+        "sid" : "10",
+        "firstname" : "Jasaon",
+        "lastname" :"Roy",
+        "guardian" : "Ian Bell",
+        "email" : "890@example.com",
+        "nearest_city" : "Badulla",
+        "course" : "Degree",
+        "Subjects" : ["ETF", "ORDBMS", "OOP", "SE", "HCI", "IP" ]
+    },
+    {
+        "sid" : "11",
+        "firstname" : "Sakith",
+        "lastname" :"Isiwara",
+        "guardian" : " SI Wijerathne",
+        "email" : "wije@example.com",
+        "nearest_city" : "Maaawathagama",
+        "course" : "FIT",
+        "Subjects" : ["ETF", "ORDBMS", "OOP", "SE", "HCI", "IP" ]  
+    },
+    {
+        "sid" : "12",
+        "firstname" : "Sikandar",
+        "lastname" :"Raza",
+        "guardian" : "Andy Flower",
+        "email" : "zim@example.com",
+        "nearest_city" : "Kalutra",
+        "course" : "Degree",
+        "Subjects" : ["ETF", "ORDBMS", "OOP", "SE", "HCI", "IP" ]
+    },
+    {
+        "sid" : "13",
+        "firstname" : "Shubman",
+        "lastname" :"Gill",
+        "guardian" : "Sanath Jayasuriya",
+        "email" : "sanath@example.com",
+        "nearest_city" : "Dambulla",
+        "course" : "MIT",
+        "Subjects" : ["ETF", "ORDBMS", "OOP", "SE", "HCI", "IP" ]
+    },
+    {
+        "sid" : "14",
+        "firstname" : "Marnus",
+        "lastname" :"Labuschangne",
+        "guardian" : "Micheal Clarks",
+        "email" : "mar@example.com",
+        "nearest_city" : "Negambo",
+        "course" : "FIT",
+        "Subjects" : ["ETF", "ORDBMS", "OOP", "SE", "HCI", "IP" ]
+      },
+    {
+        "sid" : "15",
+        "firstname" : "James",
+        "lastname" :"Anderson",
+        "guardian" : "Steve Broad",
+        "email" : "fast@example.com",
+        "nearest_city" : "Jaffna",
+        "course" : "Degree",
+        "Subjects" : ["ETF", "ORDBMS", "OOP", "SE", "HCI", "IP" ]
+    }
+  ]

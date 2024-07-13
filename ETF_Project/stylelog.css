@@ -1,0 +1,411 @@
+.container-fluid {
+    background-color: #1004b5;
+	height: 80px;
+	width: 100%;
+}
+
+nav ul li:hover {
+    background-color:#0b9dc1;
+	height: 60px;
+	border-radius: 5px;
+}
+
+nav ul li a {
+    color: black;
+	font-size: 20px;
+}
+nav ul li{
+	margin-top: 10px;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+.dropdown-menu{
+	background-color: #ffffff;
+}
+
+.dropdown-menu li a:hover{
+	color: #ffffff;
+	background-color:#044978;
+}
+
+
+h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 50px;
+    color: rgb(15, 86, 184);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+
+
+form{
+    margin-left: 20px;
+}
+
+button[type=submit]{
+    background-color:rgb(170, 9, 154);
+    border: none;
+}
+
+button[type=submit]:hover {
+    background-color:rgb(119, 4, 107);
+}
+
+.navbar-inverse .navbar-nav .active a{
+    background-color: aliceblue;
+    color:black;
+}
+.foo{
+  margin-bottom: 200px;
+}
+.foo1{
+  margin-bottom: 400px;
+}
+
+
+.dropbtn {
+background-color: #dcdcdc;
+margin-left: 20px;
+color: rgb(0, 0, 0);
+padding: 7px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+}
+
+.up{
+	margin-left: 25px;
+	margin-bottom: 20px;
+}
+
+
+.dropbtn:hover, .dropbtn:focus {
+background-color: #767676;
+}
+
+
+.dropdown {
+margin-bottom:100px ;
+position: relative;
+display: inline-block;
+}
+
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+
+.show {display:block;}
+
+
+/*-------------------------------------content------------------------------------*/
+
+
+.topic{
+    position: relative;
+    text-align: center;
+    top: 350px;
+    font-size: 70px;
+    font-family: 'Dancing Script', cursive;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+	position: relative;
+	top: 20px;
+	left: 70px;
+	color: #044978;
+}
+.box{
+    border: solid #046eb5;
+	box-shadow: -1px 0 30px #103045;
+    width: 200px;
+    height: 250px;
+    float: left;
+    border-radius: 10px;
+    position: absolute;
+	margin-left: 25px;
+}
+.btns{
+	position: relative;
+	top:50px ;
+	left: 50px;
+	background-color: #0c3a58;
+	color: #ffffff;
+	transition: 1s;
+	box-shadow: -1px 0 10px #103045;
+	border-radius: 5px;
+	width: 100px;
+	height: 30px;
+	
+}
+.btns2{
+	position: relative;
+	left: 70px;
+}
+.btns:hover{
+	transform: scale(1.3);
+	
+}
+.bor{
+	border: solid;
+	border-radius: 50px;
+}
+#box2{
+    position: absolute;
+    left: 250px;
+}
+#box3{
+    position: absolute;
+    left: 500px;
+}
+.boxhed{
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+	top: 30px;
+	font-family: 'Playfair', serif;
+	font-size: 30px;
+	color: #033659;
+}
+.containerF{
+	float: left;
+	width: 500px;
+	height: 700px;
+	position: absolute;
+	left: 800px;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9MYy3BbTlXjyhokXxcZoXDRZovRPF9cPsS7uLNA5M1IydYm5kPuVQOZpEf9naxJvCLs8&usqp=CAU");
+	background-position: center;
+	
+
+	
+	background-repeat: no-repeat;
+	transition: 2s;
+	
+	background-size: cover;
+	animation-name:animate;
+	animation-direction: alternate-reverse;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-play-statanimation-fill-mod:running;
+	animation-timing-function: ease-in-out;
+
+}
+@keyframes animate{
+	0%{
+		background-image: url("https://img.freepik.com/free-vector/task-concept-illustration_114360-4293.jpg?w=2000");
+	}
+	20%{
+		background-image: url("https://img.freepik.com/free-vector/personal-files-concept-illustration_114360-4013.jpg");
+	}
+	40%{
+		background-image: url("https://img.freepik.com/premium-vector/employee-personal-file-concept-human-resources-choice-career-employment-cv-job-search_97843-142.jpg?w=2000");
+	}
+	60%{
+		background-image: url("https://assets.website-files.com/62045da4270c887c4de9c45f/62080090f9b2b85ec9298118_iStock-1303715147.jpg");
+	}
+	80%{
+		background-image: url("https://img.freepik.com/free-vector/documentation-management-colorful-icon-female-cartoon-character-putting-document-big-yellow-folder-files-storage-sorting-organization_335657-846.jpg?w=2000");
+	}
+	100%{
+		background-image: url("https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41407-021-0707-8/MediaObjects/41407_2021_707_Fig1_HTML.jpg");
+	}
+
+}
+
+
+
+/*-------------------------------contact us page------------------------------------*/
+
+
+
+.contactUs{
+	height: 700px;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	background: url("https://docket.acc.com/sites/default/files/2021-12/f_diamond_key_components_of_records_management.jpg")no-repeat center center/cover;
+}
+.contactUs form{
+	width: 670px;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+	background: rgba(225, 225, 225, 0.1);
+	backdrop-filter: blur(20px);
+	flex-wrap: wrap;
+	margin: 70px;
+}
+.contactUs form h4{
+	color: #305c4b;
+	font-weight: 500;
+	margin-top: 20px;
+	width: 500px;
+	text-align: center;
+}
+.contactUs form input{
+	width: 290px;
+	height: 40px;
+	padding-left: 10px;
+	outline: none;
+	border:none;
+	font-size: 10px;
+	margin-bottom: 10px;
+	background: none;
+	border-bottom: 2px solid #103045;
+}
+.contactUs form input::placeholder{
+	color: #103045;
+}
+.contactUs form #lastName,
+.contactUs form #mobile{
+	margin-left: 20px;
+}
+.contactUs form h4{
+	color: #103045;
+	font-weight: 300;
+	width: 600px;
+	margin-top: 20px;
+}
+.contactUs form textarea{
+	background:none ;
+	border: none;
+	border-bottom: 2px solid #103045;
+	font-weight: 200;
+	font-size: 15px;
+	padding: 10px;
+	outline: none;
+	min-width: 600;
+	max-width: 600px;
+	min-height: 80px;
+	max-height: 80px;
+}
+textarea::webkit-scrollbar{
+	width: 1em;
+
+}
+
+textarea::webkit-scrollbar-thumb{
+	background-color: rgba(194, 194, 194, 0.713);
+}
+.contactUs form #button{
+	border: none;
+	background: #103045;
+	border-radius: 5px;
+	margin-top: 20px;
+	font-weight: 600;
+	font-size: 20px;
+	color:#ffffff;
+	width: 100px;
+	padding: 0;
+	margin-right: 500px;
+	margin-bottom: 30px;
+	transition: 0.3s;
+}
+.contactUs form #button:hover{
+	opacity: 0.7;
+
+}
+
+
+
+/*----------------------------------------footer-------------------------------------------*/
+
+
+
+.containerF{
+	max-width: 1170px;
+	margin: auto;
+    max-height: 300px;
+}
+.footerH{
+   position: relative;
+   top: 400px;
+}
+footer{
+	background-color: #1004b5;
+	padding: 50px ;
+    height: 400px;
+}
+footer ul{
+	list-style: none;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.footer-col{
+	width: 25%;
+	padding: 0 15px;
+    
+}
+.footer-col h4{
+	font-size: 18px;
+	color: rgb(203, 203, 203);
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 400;
+	position: relative;
+    margin-left: 25px;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom:10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: white;
+	text-decoration: 300;
+	color:#bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color:#ffffff;
+	padding-left: 10px;
+
+}
+.social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height:30px ;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+
+.social-links a:hover{
+	color:#ffffff;
+	background-color:#044978;
+	transform: scale(1.3);
+	z-index: 2;
+}
+
